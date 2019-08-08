@@ -10,13 +10,12 @@ Hamster.prototype.growOlder = function() {
 }
 
 function ageHamsters(list) {
-
   list.forEach(hamster => {
     hamster.growOlder();
   });
-
-	let newList = list.filter(hamster => hamster.age < 5);
-	return newList;
+  
+  let newList = list.filter(hamster => hamster.age < 5);
+  return newList;
 }
 
 
