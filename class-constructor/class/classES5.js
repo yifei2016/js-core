@@ -20,14 +20,12 @@ function ageHamsters(list) {
 }
 
 
-let h1 = new Hamster("Chuan", 2);
+let h1 = new Hamster("Bla", 2);
 let h2 = new Hamster('Yifei', 3);
-let h3 = new Hamster('mona', 6);
 
 let hamsters = [];
 hamsters.push(h1);
 hamsters.push(h2);
-hamsters.push(h3);
 
 
 var result = ageHamsters(hamsters);
