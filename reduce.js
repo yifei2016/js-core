@@ -12,9 +12,9 @@ Object.keys(b).reduce((prev, cur) => {
 {chuan: 1888}
 
 
-for key in dic:
-  dic[key] = dic[key] + 1
-
+for(var key in b){
+  b[key] = b[key] + 1
+}
 
 let keys = Object.keys(b)
 for(let index=0;index<keys.length;index++){
