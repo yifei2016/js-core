@@ -1,4 +1,4 @@
-let b = {yifei: 0, chuan: 1}
+let b = {yifei: 0, sdf: 1}
 
 Object.keys(b).reduce((prev, cur) => {
 	 prev[cur]=b[cur]+1;
