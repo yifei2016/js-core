@@ -6,7 +6,7 @@ Object.keys(b).reduce((prev, cur) => {
 }, {})
 
 
-['yifei', 'chuan']
+['yifei', 'sdf']
 {}
 {yifei: 1991}
 {sdf: 1888}
