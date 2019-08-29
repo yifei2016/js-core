@@ -9,7 +9,7 @@ Object.keys(b).reduce((prev, cur) => {
 ['yifei', 'chuan']
 {}
 {yifei: 1991}
-{chuan: 1888}
+{sdf: 1888}
 
 
 for(var key in b){
